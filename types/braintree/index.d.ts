@@ -1560,6 +1560,7 @@ declare namespace braintree {
         facilitatorDetails?: FacilitatorDetails | undefined;
         gatewayRejectionReason?: GatewayRejectionReason | undefined;
         id: string;
+        graphQLId: string;
         lineItems?: TransactionLineItem[] | undefined;
         masterpassCardDetails?:
             | {
